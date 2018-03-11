@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:12px/1.6 arial,helvetical,sans-serif;
+	}
+
+.logo{
+	margin-left: 100px;
+}
+/*start content*/
+
+.basic-input{
+	width: 280px;
+	padding: 5px;
+	height: 24px;
+	font-size: 14px;
+	vertical-align:middle ;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #c9c9c9;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	display: block;
+	}
+.basic-input:focus{
+	border:1px solid #338FFF;
+	}
+.btn-submit{
+	cursor: pointer;
+	color: #ffffff;
+	background: #3075ba;
+	border:1px solid #3075ba;
+	font-size:14px;
+	font-weight: bold;
+	padding: 6px 60px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	*width: 100px;
+	*height: 30px;
+	margin-left: 80px;
+	margin-top:5px;
+	}
+.btn-submit:hover{
+	background-color: #3e84ca;
+	border-color: #3e84ca;
+	}
+.btn-submit:active{
+	background-color: #3f90e1;
+	border-color:#3f90e1;
+	}
+.basic-input-code{
+	width: 150px;
+	padding: 5px;
+	height: 24px;
+	font-size: 14px;
+	vertical-align:middle ;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #c9c9c9;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	margin-top: 12px;
+	display: block;
+	float: left;
+}
+.basic-input-code:focus{
+	border:1px solid #338FFF;
+}
+.getCode-button{
+	cursor: pointer;
+	color: #FFFFFF;
+	background: #007BC4;
+	border:1px solid #007BC4;
+	font-size:12px;
+	font-weight: bold;
+	padding: 5px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	width: 110px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top:13px;
+	display: block;
+	float: left;
+}
+.unabled{
+	background: #7C7F7C;
+}
+/*end content*/
+
+
+
+/*start footer*/
+#footer{
+	color: #D5D5D5;
+	padding-top: 6px;
+	border-top:1px dashed #ddd;
+	}
+.copyright{
+	float: left;
+	margin-left: 100px;
+	}
+.other-link{
+	float: right;
+	margin-right: 100px;
+	}
+	/*start link*/
+#footer a:link{
+	color:#FFFFFF;
+	text-decoration: none;
+	}
+#footer a:visited{
+	color: #669;
+	text-decoration: none;
+	}
+#footer a:hover{
+	color:#fff;
+	text-decoration: none;
+	background: #039;
+	}
+#footer a:active{
+	color: #fff;
+	text-decoration: none;
+	background: #f93;
+	}
+/*end link*/
+
+/*start footer*/

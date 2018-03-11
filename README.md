@@ -1,0 +1,2 @@
+#使用PHP作为后端语言，html，css，js
+##后台传输数据使用json格式，ajax方法
